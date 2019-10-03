@@ -1,0 +1,18 @@
+#!/usr/bin/env python3
+
+import latexaux
+import sys
+
+compile = latexaux.compiles
+bibtex = latexaux.bibtex
+
+file_no_extension = 'ppgeb_mestrado'
+extensions_to_move = ('aux', 'bbl', 'blg', 'lof', 'log', 'lot', 'out', 'toc')
+files_to_move = ('ppgeb_mestrado.abc', 'ppgeb_mestrado.def')
+reffile = 'referencias.bib'
+
+if (len(sys.argv) == 1) or ((len(sys.argv) == 2) and (sys.argv[1] == 'main')):
+	compile(file_no_extension, extensions_to_move, files_to_move)
+
+if ((len(sys.argv) == 2) and (sys.argv[1] == 'bib')):
+	bibtex(file_no_extension, extensions_to_move, files_to_move, reffile)
