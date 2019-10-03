@@ -1,5 +1,5 @@
 ![GitHub Logo](versao_em_portugues_latex/figuras/ppgeb.png)
-[a link](http://fga.unb.br/pgengbiomedica)
+[Página do programa](http://fga.unb.br/pgengbiomedica)
 # ppgeb_templates
 
 Templates para dissertação do Programa de Pós-Graduação em Engenharia Biomédica da Universidade de Brasília (UnB).
