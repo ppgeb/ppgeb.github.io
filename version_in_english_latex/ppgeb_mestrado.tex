@@ -201,7 +201,11 @@ Texto do resumo.
 
 Esta seção deve sintetizar todo o trabalho, incluindo a definição do problema de pesquisa, os objetivos, a metodologia, resultados e conclusão. Note que não se trata, portanto, apenas de uma visão geral do trabalho, mas de um resumo de toda a dissertação.
 
-Para a versão em inglês, é necessário que o resumo em português seja no formato estendido. Trata-se de um formato com divisão própria de seções, como aqui exemplificado, e com uma lista própria de referências, citadas ao longo do resumo, como neste exemplo~\cite{resumoestendido}{Gabriel2017}. Procure selecionar as referências mais importantes da sua lista principal.
+Para a versão em inglês, é necessário que o resumo em português seja no formato estendido. Trata-se de um formato com divisão própria de seções, como aqui exemplificado, e com uma lista própria de referências, citadas ao longo do resumo, como neste exemplo~\cite{resumoestendido}{estendido.marconi.lakatos:2003}. Procure selecionar as referências mais importantes da sua lista principal.
+
+Note que as referências citadas no resumo estendido devem ter uma ``chave'' (o nome que vai na posição indicada  por * no comando \verb|\cite{resumoestendido}{*}|) diferente da chave utilizada para a lista principal de referências. Crie portanto uma duplicata das referências que você deseja que apareçam no resumo estendido, substituindo apenas a chave. É possível colocar as referências do resumo estendido em um arquivo bib diferente, mas não é necessário (no presente exemplo, as referências estão todas num só arquivo bib).
+
+Veja o arquivo bib fornecido como exemplo, e os comandos de citação no arquivo tex para o resumo estendido e para o restante do texto.
 
 O resumo estendido deve ter entre 4 e 6 páginas, no caso do PPGEB. Ele pode incluir figuras próprias.
 
@@ -221,7 +225,7 @@ Note que o resumo estendido pode incluir figuras próprias, como no exemplo da F
 \centering
 \vspace*{18pt}
 \includegraphics[width=100mm]{Acelerador2}
-\caption{Exemplo de um acelerador linear utilizado no Hospital Universitário de Brasília. Os ângulos de 360${^{\textrm{o}} }$, 180${^{\textrm{o}} }$ e 180${^{\textrm{o}} }$ indicam os possíveis valores de rotação do acelerador e do \emph{gantry}. Os valores em centímetros indicam as dimensões do \emph{gantry} e as distâncias em relação à mesa e ao chão. Fonte:~\cite{resumoestendido}{Avelino2013}.}\label{fig:acelerador_resumo}
+\caption{Exemplo de um acelerador linear utilizado no Hospital Universitário de Brasília. Os ângulos de 360${^{\textrm{o}} }$, 180${^{\textrm{o}} }$ e 180${^{\textrm{o}} }$ indicam os possíveis valores de rotação do acelerador e do \emph{gantry}. Os valores em centímetros indicam as dimensões do \emph{gantry} e as distâncias em relação à mesa e ao chão. Fonte:~\cite{resumoestendido}{estendido.Avelino2013}.}\label{fig:acelerador_resumo}
 \end{figureresumo}
 
 \secaoresumo{Materiais e Métodos}
