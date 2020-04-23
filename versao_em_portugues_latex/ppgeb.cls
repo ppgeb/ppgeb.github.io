@@ -43,6 +43,7 @@
 \usepackage{scalefnt}
 \usepackage{indentfirst}
 \usepackage{trivfloat}
+\usepackage{chngcntr}
 \trivfloat{quadro}
 \floatstyle{plaintop}
 \restylefloat{quadro}

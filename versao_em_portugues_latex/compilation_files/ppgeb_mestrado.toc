@@ -14,3 +14,7 @@
 \contentsline {chapter}{\numberline {4}Resultados e Discuss\IeC {\~o}es}{10}{chapter.4}
 \contentsline {chapter}{\numberline {5}Conclus\IeC {\~a}o}{11}{chapter.5}
 \contentsline {chapter}{\bf Lista de Refer\IeC {\^e}ncias}{11}{chapter.5}
+\contentsline {chapter}{Ap\IeC {\^e}ndice~\ref {apendice_exemplo}}{13}{apendice.1}
+\contentsline {chapter}{Ap\IeC {\^e}ndice~\ref {apendice_outro_exemplo}}{14}{apendice.2}
+\contentsline {chapter}{Anexo~\ref {anexo_exemplo}}{15}{anexo.1}
+\contentsline {chapter}{Anexo~\ref {anexo_outro_exemplo}}{16}{anexo.2}
