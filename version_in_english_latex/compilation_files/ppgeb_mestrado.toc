@@ -14,3 +14,7 @@
 \contentsline {chapter}{\numberline {4}Results and Discussion}{10}{chapter.4}
 \contentsline {chapter}{\numberline {5}Conclusion}{11}{chapter.5}
 \contentsline {chapter}{\bf References}{11}{chapter.5}
+\contentsline {chapter}{Appendix~\ref {apendice_exemplo}}{13}{apendice.1}
+\contentsline {chapter}{Appendix~\ref {apendice_outro_exemplo}}{14}{apendice.2}
+\contentsline {chapter}{Annex~\ref {anexo_exemplo}}{15}{anexo.1}
+\contentsline {chapter}{Annex~\ref {anexo_outro_exemplo}}{16}{anexo.2}

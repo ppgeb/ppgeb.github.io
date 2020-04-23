@@ -47,6 +47,7 @@
 \floatstyle{plaintop}
 \restylefloat{frame}
 \usepackage{newfloat}
+\usepackage{chngcntr}
 \DeclareFloatingEnvironment[fileext=frm,placement={!ht},name=Figura]{figureresumo}
 % \usepackage[toc,page]{appendix}
 \usepackage{multibbl}

@@ -479,5 +479,83 @@ Número de amostras & Fator de qualidade\\
 \addcontentsline{toc}{chapter}{\bf References}
 \bibliography{mainreferences}{referencias}{References}
 
+% |--- Exemplos de Apêndices ---|----------------------{{{
+% Início do Apêndice
+\newcounter{apendice}
+\counterwithin{figure}{apendice}
+\counterwithin{table}{apendice}
+\renewcommand{\theapendice}{\Alph{apendice}}
+\DeclareRobustCommand{\novoapendice}[1]{%
+    \refstepcounter{apendice}%
+    \phantom{\theapendice}\label{#1}}
+
+% Exemplo 1
+\clearpage
+\begin{flushright}
+\novoapendice{apendice_exemplo}
+\scalebox{1.3}{\bfseries\scshape Appendix~\ref{apendice_exemplo}}
+\addcontentsline{toc}{chapter}{Appendix~\ref{apendice_exemplo}}
+\end{flushright}
+
+\noindent\begin{large}{\bfseries\scshape Appendix Example}\end{large} \label{sec:appendix1}
+
+\vspace{24pt}
+
+Se você desejar, pode incluir ao final um ou mais apêndices, e um ou mais anexos. Caso não queira, é só remover todo o conteúdo começando na linha marcada por \\``\%~Início~do~Apêndice'', até a linha anterior a ``\verb|\end{document}|''.
+
+% Exemplo 2
+\clearpage
+\begin{flushright}
+\novoapendice{apendice_outro_exemplo}
+\scalebox{1.3}{\bfseries\scshape Appendix~\ref{apendice_outro_exemplo}}
+\addcontentsline{toc}{chapter}{Appendix~\ref{apendice_outro_exemplo}}
+\end{flushright}
+
+\noindent\begin{large}{\bfseries\scshape Another Appendix Example}\end{large} \label{sec:appendix2}
+
+\vspace{24pt}
+
+Se você desejar, pode incluir ao final um ou mais apêndices, e um ou mais anexos. Caso não queira, é só remover todo o conteúdo começando na linha marcada por \\``\%~Início~do~Apêndice'', até a linha anterior a ``\verb|\end{document}|''.
+%---}}}
+
+% |--- Exemplos de Anexos ---|----------------------{{{
+% Início do anexos
+\newcounter{anexo}
+\counterwithin{figure}{anexo}
+\counterwithin{table}{anexo}
+\renewcommand{\theanexo}{\Alph{anexo}}
+\DeclareRobustCommand{\novoanexo}[1]{%
+    \refstepcounter{anexo}%
+    \phantom{\theanexo}\label{#1}}
+
+% Exemplo 1
+\clearpage
+\begin{flushright}
+\novoanexo{anexo_exemplo}
+\scalebox{1.3}{\bfseries\scshape Annex~\ref{anexo_exemplo}}
+\addcontentsline{toc}{chapter}{Annex~\ref{anexo_exemplo}}
+\end{flushright}
+
+\noindent\begin{large}{\bfseries\scshape Annex Example}\end{large} \label{sec:annex1}
+
+\vspace{24pt}
+
+Se você desejar, pode incluir ao final um ou mais apêndices, e um ou mais anexos. Caso não queira, é só remover todo o conteúdo começando na linha marcada por \\``\%~Início~do~Apêndice'', até a linha anterior a ``\verb|\end{document}|''.
+
+% Exemplo 2
+\clearpage
+\begin{flushright}
+\novoanexo{anexo_outro_exemplo}
+\scalebox{1.3}{\bfseries\scshape Annex~\ref{anexo_outro_exemplo}}
+\addcontentsline{toc}{chapter}{Annex~\ref{anexo_outro_exemplo}}
+\end{flushright}
+
+\noindent\begin{large}{\bfseries\scshape Another Annex Example}\end{large} \label{sec:annex2}
+
+\vspace{24pt}
+
+Se você desejar, pode incluir ao final um ou mais apêndices, e um ou mais anexos. Caso não queira, é só remover todo o conteúdo começando na linha marcada por \\``\%~Início~do~Apêndice'', até a linha anterior a ``\verb|\end{document}|''.
+%---}}}
+
 \end{document} 
 %---}}}
