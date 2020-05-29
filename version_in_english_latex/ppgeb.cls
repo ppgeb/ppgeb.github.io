@@ -285,9 +285,9 @@
 \scalebox{1.3}{\maiusc{\textbf{\@titulocapaC}} }\\[15pt]
 \scalebox{1.2}{\maiusc{\textbf{\@author}} }
 \vfill
-\scalebox{1.0}{Advisor: Dr. \maiusc{\@orientador}}\\
+\scalebox{1.0}{Advisor: \maiusc{\@orientador}}\\
 \ifthenelse{\equal{\@coorientador}{}}{}{
-{\scalebox{1.0}{Coadvisor: Dr. \maiusc{\@coorientador}} }}
+{\scalebox{1.0}{Coadvisor: \maiusc{\@coorientador}} }}
 \vspace{10mm}
 \end{center}}]{capa}
 %-}}}
